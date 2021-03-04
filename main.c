@@ -3,12 +3,9 @@
 
 int main()
 {
-    int byear,age;
-    printf("Enter your birth year");
-    scanf("%d",&byear);
-
-    age=2019-byear;
-
-    printf("Hi,your age is %d\n",age);
+    char name[25];
+    printf("Enter your name");
+    scanf("%s",&name);
+    printf("Hi,%s\n",name);
     return 0;
 }
