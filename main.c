@@ -3,10 +3,17 @@
 
 int main()
 {
-    printf("Dulyana Liyanage\n");
-    printf("19.2\n");
-    printf("Software Engineering\n");
+    int itemnumber,qty;
+    printf("Enter itemnumber,qty\n");
+    scanf("%d",& itemnumber,&qty);
+    char des[30];
+    printf("Enter the des\n");
+    scanf("%s",&des);
 
-    printf("Dulyana Liyanage/19.2/Software Engineering\n");
+    float price,totalprice;
+    printf("Enter the price,totalprice\n");
+    scanf("%2f",&price,&totalprice);
+
+    printf("item number of %d des%s totalprice%2f\n",itemnumber,des,totalprice);
     return 0;
 }
