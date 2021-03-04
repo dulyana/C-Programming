@@ -3,10 +3,12 @@
 
 int main()
 {
-    printf("Dulyana Liyanage\n");
-    printf("19.2\n");
-    printf("Software Engineering\n");
+    int byear,age;
+    printf("Enter your birth year");
+    scanf("%d",&byear);
 
-    printf("Dulyana Liyanage/19.2/Software Engineering\n");
+    age=2019-byear;
+
+    printf("Hi,your age is %d\n",age);
     return 0;
 }
