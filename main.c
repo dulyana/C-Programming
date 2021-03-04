@@ -3,31 +3,20 @@
 
 int main()
 {
-    int Mark, Total, Count;
-    float Avg;
+    float F, C;
 
-    Total = 0;
-    Count = 1;
 
-    while (Count <=10)
-    {
-        printf("Enter mark: ");
-        scanf("%d", &Mark);
+    printf("Enter the temperature reading in Fahrenheit : ");
+    scanf("%f",&F);
 
-        Total = Total + Mark;
-        Count = Count + 1;
-    }
 
-    printf("Your total of marks is: %d ", Total);
 
-    Avg = (float)Total / 10;
+    C=(5.00/9.00)*(F-32.00);
 
-    printf("Your average marks is: %.2f ", Avg);
 
-    if (Avg >= 50)
-        printf("Pass!");
-    else
-        printf("Fail!");
+    printf("Value in Celsius is : %f",C);
+
+
 
     return 0;
 }
