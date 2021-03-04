@@ -3,20 +3,10 @@
 
 int main()
 {
-    float F, C;
+    printf("Dulyana Liyanage\n");
+    printf("19.2\n");
+    printf("Software Engineering\n");
 
-
-    printf("Enter the temperature reading in Fahrenheit : ");
-    scanf("%f",&F);
-
-
-
-    C=(5.00/9.00)*(F-32.00);
-
-
-    printf("Value in Celsius is : %f",C);
-
-
-
+    printf("Dulyana Liyanage/19.2/Software Engineering\n");
     return 0;
 }
