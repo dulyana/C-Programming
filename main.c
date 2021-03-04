@@ -3,9 +3,10 @@
 
 int main()
 {
-    char name[25];
-    printf("Enter your name");
-    scanf("%s",&name);
-    printf("Hi,%s\n",name);
+    printf("Dulyana Liyanage\n");
+    printf("19.2\n");
+    printf("Software Engineering\n");
+
+    printf("Dulyana Liyanage/19.2/Software Engineering\n");
     return 0;
 }
